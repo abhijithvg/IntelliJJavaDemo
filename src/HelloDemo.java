@@ -1,12 +1,12 @@
 public class HelloDemo {
 
-    void myMethod() {
+    static void myMethod(int n) {
         for (int i=1; i<=10; i++) {
-            System.out.println(i * 6);
+            System.out.println(i * n);
         }
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello Demo from IntelliJ");
+        myMethod(8);
     }
 }
